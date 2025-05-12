@@ -14,7 +14,7 @@ body {
 
 .header {
     width: 100%;
-    background-color: var(--dark-grey);
+    background-color: var(--black);
     color: white;
     text-align: center;
     padding: 20px 0px;
