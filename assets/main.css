@@ -160,6 +160,7 @@ body {
 
 .album-image img {
     width: 100%;
+    box-shadow: 0 0 10px var(--dark-grey-main);
 }
 
 .page-section {
