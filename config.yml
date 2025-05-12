@@ -1,2 +1,4 @@
-title: Site
-description: Jekyll templated site
+title: Sound Sphere
+description: Sound Sphere
+baseurl: "/soundsphere"
+url: "https://mpitfield.github.io"
