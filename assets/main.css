@@ -9,6 +9,7 @@
     --light-blue-main: #0062FF;
     --light-blue-second: #007BFF;
     --yellow: #FFBB00;
+    --yellow-hover: #d49c00;
 }
 
 body {
@@ -61,9 +62,29 @@ body {
     height: 45px;
     display: flex;
     border-radius: 50%;
-    background-color: var(--purple);
+    background-color: var(--yellow);
     align-items: center;
     justify-content: center;
+    transition: 0.3s ease;
+}
+
+.profile-button:hover {
+    background-color: var(--yellow-hover);
+    width: 100px;
+    border-radius: 14px;
+    gap: 10px;
+}
+
+.profile-button:hover:after {
+    content: "Profile";
+    opacity: 1;
+}
+
+.profile-button:after {
+    opacity: 0;
+    content: "Profile";
+    transition: 0.3s ease;
+    transition-delay: 0.2s;
 }
 
 .header-column.header-user-actions {
