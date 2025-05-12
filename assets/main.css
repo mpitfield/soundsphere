@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css');
+
 :root {
     --black: #000000;
     --dark-grey: #222222;
@@ -10,6 +13,7 @@
 
 body {
     margin: 0;
+    font-family: "Roboto", sans-serif;
 }
 
 .header {
@@ -25,8 +29,27 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 auto;
 }
 
 .header-logo {
     width: 250px;
+    min-width: 250px;
+}
+
+.header-column.header-nav a {
+    color: white !important;
+    text-decoration: none !important;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.header-column.header-nav {
+    width: 100%;
+}
+
+.header-column.header-nav nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
