@@ -120,6 +120,9 @@ body {
         width: 95% !important;
         max-width: 95% !important;
     }
+    .col-on-small {
+        flex-direction: column !important;
+    }
 }
 
 .page-width {
