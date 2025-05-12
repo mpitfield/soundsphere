@@ -3,8 +3,9 @@
 
 :root {
     --black: #000000;
-    --dark-grey: #222222;
-    --light-grey: #3B3B3B;
+    --light-grey: #EFEFEF;
+    --dark-grey-main: #222222;
+    --dark-grey-second: #3B3B3B;
     --purple: #9C2BFF;
     --light-blue-main: #0062FF;
     --light-blue-second: #007BFF;
@@ -151,4 +152,23 @@ body {
     display: flex;
     width: 100%;
     max-width: 100%;
+}
+
+.fa-star {
+    color: var(--yellow) !important;
+}
+
+.album-image img {
+    width: 100%;
+}
+
+.page-section {
+    background-color: var(--light-grey);
+    border-radius: 7px;
+    padding: 10px 15px;
+}
+
+.tracklist {
+    background-color: var(--dark-grey-main);
+    color: white !important;
 }
