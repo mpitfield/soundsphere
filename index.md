@@ -25,6 +25,7 @@ title: Home
                         </h5>
                     </div>
                 </div>
+                <div style="min-height: 25px;"></div>
                 <div class="width-100 page-section">
                     <h3>RELEASED : 3 August 2018</h3>
                     <div class="tracklist">
@@ -49,6 +50,7 @@ title: Home
                         </ol>
                     </div>
                 </div>
+                <div style="min-height: 25px;"></div>
                 <p>
                     Astroworld is the third studio album by American rapper Travis Scott. It was released on August 3, 2018, through Cactus Jack Records and Grand Hustle Records, and distributed by Epic Records. The album features guest vocals from Frank Ocean, Drake, Swae Lee, Kid Cudi, James Blake, Philip Bailey, Juice Wrld, Sheck Wes, the Weeknd, 21 Savage, Gunna, Nav, Don Toliver, Quavo, and Takeoff, among others. Production was handled by multiple producers, including Scott himself, Mike Dean, Allen Ritter, Hit-Boy, WondaGurl, Tay Keith, Tame Impala, Frank Dukes, Sonny Digital, Murda Beatz, and Thundercat, among others. The album follows Scott's second studio album, Birds in the Trap Sing McKnight (2016), and his collaborative album with Quavo, Huncho Jack, Jack Huncho (2017).
                 </p>
