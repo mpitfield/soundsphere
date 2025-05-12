@@ -61,7 +61,20 @@ body {
     height: 45px;
     display: flex;
     border-radius: 50%;
-    background-color: var(--light-blue-main);
+    background-color: var(--purple);
     align-items: center;
     justify-content: center;
+}
+
+.header-column.header-user-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.header-column.header-user-actions p {
+    width: fit-content;
+    display: block;
+    min-width: fit-content;
+    text-wrap: nowrap;
 }
