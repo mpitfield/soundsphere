@@ -1,1 +1,16 @@
+:root {
+    --black: #000000;
+    --dark-grey: #222222;
+    --light-grey: #3B3B3B;
+    --purple: #9C2BFF;
+    --light-blue-main: #0062FF;
+    --light-blue-second: #007BFF;
+    --yellow: #FFBB00;
+}
 
+.header {
+    width: 100%;
+    background-color: var(--dark-grey);
+    color: white;
+    text-align: center;
+}
