@@ -5,7 +5,7 @@ title: Home
 
 <div class="homepage">
     <div class="page-width">
-        <div class="row">
+        <div class="row col-on-small">
             <div class="width-50">
                 <div class="row">
                     <div class="album-image album-image-sm width-50">
