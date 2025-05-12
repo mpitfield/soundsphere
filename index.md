@@ -58,19 +58,19 @@ title: Home
             <div class="width-50">
                 <div class="page-section">
                     <button class="button width-100 review-button">REVIEW THIS ALBUM</button>
-                </div>
-                <div style="min-height: 25px;"></div>
-                <div class="page-section-darker">
-                    <h3>Ongoing review</h3>
                     <div style="min-height: 25px;"></div>
-                    <div class="tracklist">
-                        <ol>
-                            <li>STARGAZING - Travis Scott (4.31) : 4/10</li>
-                            <li>CAROUSEL - Travis Scott (3) : 6/10</li>
-                            <li>SICKO MODE - Travis Scott (5.13) : ?/10</li>
-                            <li>...</li>
-                        </ol>
-                        <button class="button review-button">Continue Review</button>
+                    <div class="page-section-darker">
+                        <h3>Ongoing review</h3>
+                        <div style="min-height: 25px;"></div>
+                        <div class="tracklist">
+                            <ol>
+                                <li>STARGAZING - Travis Scott (4.31) : 4/10</li>
+                                <li>CAROUSEL - Travis Scott (3) : 6/10</li>
+                                <li>SICKO MODE - Travis Scott (5.13) : ?/10</li>
+                                <li>...</li>
+                            </ol>
+                            <button class="button review-button">Continue Review</button>
+                        </div>
                     </div>
                 </div>
             </div>
