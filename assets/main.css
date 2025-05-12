@@ -8,9 +8,25 @@
     --yellow: #FFBB00;
 }
 
+body {
+    margin: 0;
+}
+
 .header {
     width: 100%;
     background-color: var(--dark-grey);
     color: white;
     text-align: center;
+    padding: 20px;
+}
+
+.header-content {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo {
+    width: 250px;
 }
