@@ -86,7 +86,7 @@ body {
 
 .profile-button:after {
     opacity: 0;
-    content: "Profile";
+    content: "";
     transition: 0.3s ease;
     transition-delay: 0.2s;
 }
@@ -123,6 +123,7 @@ body {
 .page-width {
     width: 80%;
     max-width: 80%;
+    margin: 0 auto;
 }
 
 .width-30 {
@@ -147,4 +148,6 @@ body {
 
 .row {
     display: flex;
+    width: 100%;
+    max-width: 100%;
 }
