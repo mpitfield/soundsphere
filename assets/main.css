@@ -168,7 +168,27 @@ body {
     padding: 10px 15px;
 }
 
-.tracklist {
+.page-section-darker {
     background-color: var(--dark-grey-main);
+    border-radius: 7px;
+    padding: 10px 15px;
     color: white !important;
+}
+
+.button {
+    background-color: none;
+    border: none;
+    border-radius: 7px;
+    min-width: fit-content;
+    padding: 10px 25px;
+}
+
+.review-button {
+    background-color: var(--light-blue-main);
+    color: white;
+    font-weight: 700;
+}
+
+.review-button:hover {
+    background-color: var(--light-blue-second);
 }
