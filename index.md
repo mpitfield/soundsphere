@@ -8,10 +8,10 @@ title: Home
         <div class="row">
             <div class="width-50">
                 <div class="row">
-                    <div class="album-image-sm width-30">
+                    <div class="album-image album-image-sm width-50">
                         <img src="/soundsphere/images/astroworld.png">
                     </div>
-                    <div class="width-70">
+                    <div class="width-50">
                         <h1>10/10</h1>
                         <h3>
                             <i class="fa-solid fa-star"></i>
@@ -19,10 +19,10 @@ title: Home
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
-                            <span>
-                                200,000 REVIEWS
-                            </span>
                         </h3>
+                        <h5>
+                            200,000 REVIEWS
+                        </h5>
                     </div>
                 </div>
                 <div class="width-100 page-section">
