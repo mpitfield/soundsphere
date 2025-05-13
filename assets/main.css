@@ -302,3 +302,16 @@ body {
 .carousel-next {
     right: 10px;
 }
+
+.advert {
+    width: 100%;
+}
+
+.advert a {
+    display: block;
+    width: 100%;
+}
+
+.advert img {
+    width: 100%;
+}
