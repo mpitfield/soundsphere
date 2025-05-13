@@ -83,6 +83,10 @@ title: Home
                         </div>
                     </div>
                 </div>
+                <div style="min-height: 25px;"></div>
+                <div class="width-100">
+                    <img src="/soundsphere/images/sickomode.png" width="100%">
+                </div>
             </div>
         </div>
     </div>
