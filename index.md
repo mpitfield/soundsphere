@@ -90,6 +90,11 @@ title: Home
             </div>
         </div>
     </div>
+    <div class="full-width">
+        <a href="/" class="advert">
+            <img src="/soundsphere/images/carousel3.png">
+        </a>
+    </div>
 </div>
 
 <script>
