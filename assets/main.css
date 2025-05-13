@@ -18,7 +18,7 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-.header {
+.header, .footer {
     width: 100%;
     background-color: var(--black);
     color: white;
@@ -27,12 +27,16 @@ body {
     margin-bottom: 50px;
 }
 
-.header-content {
+.header-content, .footer-content {
     width: 80%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;
+}
+
+.footer-content {
+    align-items: flex-start !important;
 }
 
 .header-logo {
@@ -104,6 +108,29 @@ body {
     display: block;
     min-width: fit-content;
     text-wrap: nowrap;
+}
+
+.footer-column {
+    width: 100%;
+}
+
+.footer-column.footer-logo-socials {
+    width: 250px;
+    min-width: 250px;
+}
+
+.footer-column.footer-detail-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column.footer-detail-column a {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.footer-column.footer-detail-column h3 {
+    text-decoration: underline;
 }
 
 @media (max-width: 767px) {
