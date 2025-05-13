@@ -5,6 +5,14 @@ title: Home
 
 <div class="homepage">
     <div class="page-width">
+        <div class="carousel">
+            <div class="carousel-prev carousel-button" onclick="carousel('prev')"><i class="fa-solid fa-caret-left"></i></div>
+            <div class="carousel-slide"><img src="/soundsphere/images/carousel1.png"></div>
+            <div class="carousel-slide"><img src="/soundsphere/images/carousel2.png"></div>
+            <div class="carousel-slide"><img src="/soundsphere/images/carousel3.png"></div>
+            <div class="carousel-slide"><img src="/soundsphere/images/carousel4.png"></div>
+            <div class="carousel-next carousel-button" onclick="carousel('next')"><i class="fa-solid fa-caret-right"></i></div>
+        </div>
         <div class="row col-on-small">
             <div class="width-50">
                 <div class="row">
