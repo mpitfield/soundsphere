@@ -7,10 +7,12 @@ title: Home
     <div class="page-width">
         <div class="carousel">
             <div class="carousel-prev carousel-button" onclick="carousel('prev')"><i class="fa-solid fa-caret-left"></i></div>
-            <div class="carousel-slide"><img src="/soundsphere/images/carousel1.png"></div>
-            <div class="carousel-slide"><img src="/soundsphere/images/carousel2.png"></div>
-            <div class="carousel-slide"><img src="/soundsphere/images/carousel3.png"></div>
-            <div class="carousel-slide"><img src="/soundsphere/images/carousel4.png"></div>
+            <div class="carousel-inner">
+                <div class="carousel-slide"><img src="/soundsphere/images/carousel1.png"></div>
+                <div class="carousel-slide"><img src="/soundsphere/images/carousel2.png"></div>
+                <div class="carousel-slide"><img src="/soundsphere/images/carousel3.png"></div>
+                <div class="carousel-slide"><img src="/soundsphere/images/carousel4.png"></div>
+            </div>
             <div class="carousel-next carousel-button" onclick="carousel('next')"><i class="fa-solid fa-caret-right"></i></div>
         </div>
         <div class="row col-on-small">
@@ -85,3 +87,23 @@ title: Home
         </div>
     </div>
 </div>
+
+<script>
+  const inner = document.querySelector('.carousel-inner');
+  const slides = document.querySelectorAll('.carousel-slide');
+  let index = 0;
+  const total = slides.length;
+
+  function updateCarousel() {
+    inner.style.transform = `translateX(-${index * 100}%)`;
+  }
+
+  function carousel(direction) {
+    if (direction === 'next') {
+      index = (index + 1) % total;
+    } else if (direction === 'prev') {
+      index = (index - 1 + total) % total;
+    }
+    updateCarousel();
+  }
+</script>
