@@ -27,6 +27,11 @@ body {
     margin-bottom: 50px;
 }
 
+.footer {
+    margin-bottom: 0 !important;
+    margin-top: 50px;
+}
+
 .header-content, .footer-content {
     width: 80%;
     display: flex;
