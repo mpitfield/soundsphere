@@ -8,10 +8,10 @@ title: Home
         <div class="carousel">
             <div class="carousel-prev carousel-button" onclick="carousel('prev')"><i class="fa-solid fa-caret-left"></i></div>
             <div class="carousel-inner">
-                <div class="carousel-slide"><img src="/soundsphere/images/carousel1.png"></div>
-                <div class="carousel-slide"><img src="/soundsphere/images/carousel2.png"></div>
-                <div class="carousel-slide"><img src="/soundsphere/images/carousel3.png"></div>
-                <div class="carousel-slide"><img src="/soundsphere/images/carousel4.png"></div>
+                <div class="carousel-slide"><img src="/images/carousel1.png"></div>
+                <div class="carousel-slide"><img src="/images/carousel2.png"></div>
+                <div class="carousel-slide"><img src="/images/carousel3.png"></div>
+                <div class="carousel-slide"><img src="/images/carousel4.png"></div>
             </div>
             <div class="carousel-next carousel-button" onclick="carousel('next')"><i class="fa-solid fa-caret-right"></i></div>
         </div>
@@ -19,7 +19,7 @@ title: Home
             <div class="width-50">
                 <div class="row">
                     <div class="album-image album-image-sm width-50">
-                        <img src="/soundsphere/images/astroworld.png">
+                        <img src="/images/astroworld.png">
                     </div>
                     <div class="width-50">
                         <h1>10/10</h1>
@@ -85,14 +85,14 @@ title: Home
                 </div>
                 <div style="min-height: 25px;"></div>
                 <div class="width-100">
-                    <img src="/soundsphere/images/sickomode.jpg" width="100%">
+                    <img src="/images/sickomode.jpg" width="100%">
                 </div>
             </div>
         </div>
     </div>
     <div class="full-width">
         <a href="/" class="advert">
-            <img src="/soundsphere/images/carousel3.png">
+            <img src="/images/carousel3.png">
         </a>
     </div>
 </div>
