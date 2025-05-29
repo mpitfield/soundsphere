@@ -6,7 +6,7 @@ title: Create Post
 <div class="create-post-page">
     <div class="card">
         <h1 style="margin-top: 0;">Create new post</h1>
-        <input type="text" placeholder="Title" class="text-input title-text">
+        <input type="text" placeholder="Title" class="text-input title-text" id="title">
         <div style="min-height: 25px;"></div>
         <div class="body-text-controls" id="body-text-controls">
             <div class="body-text-group">
@@ -22,18 +22,23 @@ title: Create Post
                 <button data-command="unlink"><i class="fa-solid fa-unlink"></i></button>
             </div>
         </div>
-        <div class="text-input body-text" id="editor" contenteditable="true"></div>
+        <div class="text-input body-text" id="editor" contenteditable="true" id="body"></div>
         <div id="status-bar" style="margin-top: 10px; font-size: 12px; color: #666;">0 words</div>
         <div style="min-height: 25px;"></div>
         <div class="buttons">
             <input type="submit" class="button cancel" value="Cancel">
-            <input type="submit" class="button save" value="Save">
-            <input type="submit" class="button submit" value="Post">
+            <input type="submit" class="button submit" value="Post" onclick="submitForm('title', 'body')">
         </div>
     </div>
 </div>
 
 <script>
+    function submitForm(title, body) {
+        let titleval = document.getElementById(title).value;
+        let bodyval = document.getElementById(body).innerHTML;
+        createAlbumReview(titleval, bodyval);
+    }
+    
     const editor = document.getElementById("editor");
     const buttons = document.querySelectorAll("#body-text-controls button");
 
