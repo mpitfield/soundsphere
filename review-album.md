@@ -37,6 +37,7 @@ title: Create Post
         let titleval = document.getElementById(title).value;
         let bodyval = document.getElementById(body).innerHTML;
         createAlbumReview(titleval, bodyval);
+        location.reload()
     }
     
     const editor = document.getElementById("editor");
