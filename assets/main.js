@@ -5,7 +5,10 @@ function createAlbumReview(title, body) {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ title: title, body: body, album: album })
     })
-        .then(res => res.json())
-        .then(data => console.log("Success:", data))
-        .catch(err => console.error("Error:", err));
+    .then(data => {
+        alert("Review submitted successfully!");
+        setTimeout(() => location.reload(), 1000);
+    })
+    .then(data => console.log("Success:", data))
+    .catch(err => console.error("Error:", err));
 }
