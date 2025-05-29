@@ -22,12 +22,12 @@ title: Create Post
                 <button data-command="unlink"><i class="fa-solid fa-unlink"></i></button>
             </div>
         </div>
-        <div class="text-input body-text" id="editor" contenteditable="true" id="body"></div>
+        <div class="text-input body-text" id="editor" contenteditable="true"></div>
         <div id="status-bar" style="margin-top: 10px; font-size: 12px; color: #666;">0 words</div>
         <div style="min-height: 25px;"></div>
         <div class="buttons">
             <input type="submit" class="button cancel" value="Cancel">
-            <input type="submit" class="button submit" value="Post" onclick="submitForm('title', 'body')">
+            <input type="submit" class="button submit" value="Post" onclick="submitForm('title', 'editor')">
         </div>
     </div>
 </div>
