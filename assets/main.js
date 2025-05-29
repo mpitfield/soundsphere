@@ -1,4 +1,3 @@
-<script>
 function createAlbumReview(title, body) {
     let album = "xxx";
     fetch("https://rythmic-backend.vercel.app/api/submit", {
@@ -10,4 +9,3 @@ function createAlbumReview(title, body) {
         .then(data => console.log("Success:", data))
         .catch(err => console.error("Error:", err));
 }
-</script>
