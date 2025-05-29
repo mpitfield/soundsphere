@@ -321,3 +321,52 @@ body {
 .advert img {
     width: 100%;
 }
+
+#flash-message-container {
+    width: 500px;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    z-index: 10;
+}
+
+#flash-message-container div {
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+#flash-message-container div[data-type="success"] {
+    background-color: #c6e2b8;
+    border: 2px solid #5da35d;
+}
+
+#flash-message-container div span {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#flash-message-container div:before {
+    content: "!";
+    font-size: 20px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+#flash-message-container div[data-type="success"]:before {
+    background-color: #47bc47;
+    border: 2px solid green;
+    box-shadow: 0 0 7px green;
+}
